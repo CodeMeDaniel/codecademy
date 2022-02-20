@@ -1,13 +1,19 @@
-* {
+*   {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
+    text-align: center;
 }
 
 h1 {
     font-size: 50px;
     font-weight: normal;
+    color: white;  
+}
+
+h2 {
     color: white;
-    text-align: center;
+    font-weight: 300;
+    font-size: 42px;
 }
 
 a:visited {
@@ -16,8 +22,22 @@ a:visited {
     text-align: center;
 }
 
-p.downloadExcursion {
+.downloadExcursion {
     color: aquamarine;
     font-size: 16px;
-    text-align: center;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+.greyed {
+    color: gray;
+    font-size: 21px;
+}
+
+.alignRight {
+    text-align: right;
+    color: gray;
 }
